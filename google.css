@@ -1,0 +1,105 @@
+body{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#srch_bar{
+	width: 40%;
+	margin: auto;
+	position: relative;
+	top: 160px;
+	display: block;
+	padding: 5px;
+}
+
+#hdr{
+	margin: auto;
+	position: relative;
+	top: 150px;
+	display: block;
+}
+
+.btn_bar{
+	position: relative;
+	margin: auto;
+	top: 175px;
+	display: block;
+	text-align: center;
+	width: 40%;
+	padding: 5px;
+}
+
+button{
+	padding: 8px 12px;
+	margin: 0 3px;
+	border-radius: 0;
+	background-color: #efeeee;
+	border-style: none;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+}
+
+input[type="text"]{
+	font-family: Arial, Sans-Serif;
+}
+
+div#topnav{
+	position: fixed;
+	height: 40px;
+	padding: 10px 0;
+	width: 100%;
+	top: 0;
+	left: 0;
+	text-align: right;
+}
+
+div#topnav div{
+	position: relative;
+	display: inline;
+	padding: 0 6px;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+}
+
+div#footer{
+	position: fixed;
+	height: 40px;
+	padding: 10px 0;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	border: 1px;
+	border-top-color: #e4e4e4;
+	border-top-style: solid;
+	background-color: #f2f2f2;
+	display: flex;
+}
+
+div#footer div.leftf{
+	position: relative;
+	padding: 0 6px;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	left: 0;
+	align-self: center;
+}
+
+div#footer div.leftf div{
+	display: inline;
+	padding: 2px 12px;
+}
+
+div#footer div.rightf{
+	position: absolute;
+	padding: 0 6px;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	right: 0;
+	align-self: center;
+}
+
+div#footer div.rightf div{
+	display: inline;
+	padding: 2px 12px;
+}
